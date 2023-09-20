@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+
+.container {
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 260px;
+  height: 350px;
+  max-height: 100vh;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, .3);
+  position: relative;
+}
+
+.container2 {
+  background: hsla(0, 0%, 100%, 0.9);
+  width: 260px;
+  height: 350px;
+  max-height: 100vh;
+  border-radius: 0px 12px 12px 0px;
+  box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, .3);
+  position: relative;
+  margin-left: -4px;
+  z-index: -1;
+}
+
+
+p {
+  margin: 10px auto;
+  padding: 8px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+img {
+  width: 12px;
+  margin-right: 4px;
+}
+
+.black {
+  margin-left: 50px;
+  color: black;
+}
+
+.grey {
+  color: grey;
+}
+
+.r img {
+  margin-right: 8px;
+}
+
+.m img {
+  margin-right: 8px;
+}
+
+.v img {
+  margin-right: 8px;
+}
+
+.vi img {
+  margin-right: 8px;
+}
+
+
+.v .black {
+  margin-left: 66px;
+}
+
+.vi .black {
+  margin-left: 66px;
+}
+
+
+.m {
+  display: flex;
+  background: hsla(39, 100%, 56%, 0.1);
+  border-radius: 10px;
+  color: #eaea48;
+  font-weight: bold;
+  width: 210px;
+}
+
+
+.r {
+  display: flex;
+  background: hsla(0, 100%, 67%, 0.1);
+  border-radius: 10px;
+  color: #e05206;
+  font-weight: bold;
+  width: 210px;
+}
+
+.v {
+  display: flex;
+  background: hsla(166, 100%, 37%, 0.1);
+  border-radius: 10px;
+  color: hsl(166, 100%, 37%);
+  font-weight: bold;
+  width: 210px;
+}
+
+.vi {
+  display: flex;
+  background: hsla(241, 100%, 89%, 0.2);
+  border-radius: 10px;
+  color: #4a4aa5;
+  font-weight: bold;
+  width: 210px;
+}
+
+.c {
+  background: hsl(235, 14%, 15%);
+  width: 210px;
+  border-radius: 20px;
+  color: white;
+}
+
+h3 {
+  margin: 10px 22px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.result {
+  color: white;
+}
+
+
+
+.marks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  color: #fff;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  font-size: 60px;
+  margin: 0 auto;
+}
+
+
+.m-grey {
+  color: #c3b1b1;
+  margin-top: -30px;
+}
+
+h2 {
+  background: hsl(252, 96%, 28%);
+  border-radius: 20%;
+}
+
+
+.para {
+  color: white;
+  margin: 20px auto;
+}
+
+
+.great {
+  color: white;
+  font-size: 28px;
+
+}
+
+
+.paras {
+  color: #c3b1b1;
+  margin: 0 10px;
+}
+
+
+
+
+/*  1  - display: flex;: This CSS property transforms the parent element (in this case, the <p> element with class "r") into a flex container. As a result, the child elements within the container become flex items, and they can be arranged in a flexible and predictable way.
+
+   2  -align-items: center;: This CSS property is applied to the flex container (.r) and is used to vertically align the flex items (in this case, the <img> and <span> elements) to the center of the container. In other words, it vertically centers the content within the <p> element. */
